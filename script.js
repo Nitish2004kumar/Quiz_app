@@ -208,7 +208,7 @@ const shuffleQuestions = () =>{
 
 // Function to Start Quiz
 const startQuiz = () =>{
-    timeLeft = 15;
+    timeLeft = 30;
     timer.style.display = "flex";
     shuffleQuestions();
 }
