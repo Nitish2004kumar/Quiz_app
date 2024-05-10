@@ -136,7 +136,7 @@ const checkAnswer = () => {
         // alert("Wrong answer");
         displayAlert(`Wrong Answer! ${quiz[currentQuestionIndex].answer} is the Correct Answer`);
     }
-    timeLeft = 15;
+    timeLeft = 30;
     currentQuestionIndex++;
     if (currentQuestionIndex < quiz.length) {
         showQuestions();
